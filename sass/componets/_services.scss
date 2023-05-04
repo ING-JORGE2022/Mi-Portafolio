@@ -1,0 +1,22 @@
+@import "../ultis/variables.scss";
+.services .services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background:  $bg-color-text;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .5rem $shadow-color;
+    text-align: center;
+    border-top: .6rem solid $main-color;
+    border-bottom: .6rem solid $main-color;
+}
+.services-box i{
+    font-size:7rem;
+    color: $main-color;
+}

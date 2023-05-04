@@ -1,0 +1,144 @@
+@import "../ultis/variables.scss";
+
+section {
+    min-height: 100vh;
+    padding: 10rem 7% 2rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+
+ & &-content{
+max-width: 44rem;
+}
+&-content h3{
+    font-size: 3.1rem;
+    font-weight:700;
+    line-height: 2rem;
+    color:#000000;
+    margin-left: 10px;
+}
+&-content h1{
+    color : black;
+    font-size:5.6rem;
+    font-weight:700;
+    margin-bottom: .3rem;
+}
+&-content p {
+    font-size:1.6rem;
+    color: black;
+}
+&-content .social-media a{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 4rem;
+height: 4rem;
+background: transparent;
+border: .2rem solid $main-color;
+border-radius: 50%;
+box-shadow: 0 .2rem .5rem $shadow-color;
+font-size: 2rem;
+color: $main-color;
+margin: 2.5rem 1.5rem 3rem 0;
+transition: .5s ease;
+}
+&-content .social-media a:hover{
+    background: $main-color;
+    color:$bg-color-text;
+}
+& .profession-container{
+    position:absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 768px;
+    height: 768px;
+    
+    overflow: hidden;
+    pointer-events: none;
+}
+& .profession-container .profession-box{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 768px;
+    height: 768px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+& .profession-box .profession{
+    position:absolute;
+    left:0;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    color: $main-color;
+    transform: rotate(calc(360deg / 4 * var(--i) ));
+    transform-origin: 384px;
+    background:$bg-color-text;
+    padding: 13px 0;
+
+}
+& .profession-box .profession:nth-child(1) i {
+margin-right: 15px;
+}
+& .profession-box .profession:nth-child(2),
+& .profession-box .profession:nth-child(4){
+    padding-bottom: 20px;
+}
+& .profession i {
+    font-size: 3.8rem;
+    
+}
+& .profession h3{
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 600;
+
+}
+& .profession-box .circle{
+    width: 560px;
+    height: 560px;
+    border: 3px solid $main-color;
+    border-radius: 50%;
+}
+& .profession-container .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 384px solid $main-color;
+    border-right: 384px solid $main-color;
+    border-bottom: 384px solid $main-color;
+    border-left: 384px solid transparent;
+}
+}
+.btn{
+    display: inline-block;
+    padding: 1.2rem 2.8rem;
+    background: $main-color;
+    border-radius: .6rem;
+    box-shadow: 0 .2rem .5rem $shadow-color;
+    font-size:1.6rem;
+    color:$bg-color-text;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    
+}
+.btn:hover{
+    background: transparent;
+    color :$main-color;
+    border-color: $main-color;
+
+}
+.home-img img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}

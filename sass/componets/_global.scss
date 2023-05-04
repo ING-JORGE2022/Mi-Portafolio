@@ -1,0 +1,19 @@
+@import "../ultis/variables.scss";
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+body{
+   background:$bg-color-text;
+   color:black;
+}
