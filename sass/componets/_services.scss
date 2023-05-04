@@ -1,10 +1,19 @@
 @import "../ultis/variables.scss";
+
+.services{
+    min-height:auto;
+    padding-bottom: 7rem;
+}
+.services h2{
+    margin-bottom: 5rem;
+}
 .services .services-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    
 }
 .services-container .services-box{
     flex: 1 1 30rem;
@@ -15,8 +24,27 @@
     text-align: center;
     border-top: .6rem solid $main-color;
     border-bottom: .6rem solid $main-color;
+    transition: .5s ease;
+}
+.services-container .services-box:hover{
+box-shadow: 0 .1rem 2rem $shadow-color;
+transform:  scale(1.02);
 }
 .services-box i{
     font-size:7rem;
     color: $main-color;
+}
+.services-box h3{
+    font-size:2.6rem;
+    transition: .5s ease;
+}
+.services-box:hover h3{
+color: $main-color;
+}
+
+
+
+.services-box p{
+    font-size: 1.6rem;
+    margin:1rem 0 3rem;
 }
