@@ -16,7 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <title>Portafolio</title>
   </head>
   <body>
@@ -24,13 +26,14 @@
     <header class="header">
       <a href="#" class="logo"> Portafolio.</a>
       <nav class="navbar">
-        <a href="#" class="active"> Home</a>
-        <a href="#">About </a>
-        <a href="#">Services </a>
-        <a href="#">Portafolio </a>
-        <a href="#">Contact </a>
+        <a href="#home" class="active"> Home</a>
+        <a href="#about">About </a>
+        <a href="#services">Services </a>
+        <a href="#portafolio">Portafolio </a>
+        <a href="#contact">Contact </a>
       </nav>
       <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
     <!-- __________________________________________Home section design________________________________________ -->
     <section class="home" id="home">
@@ -51,21 +54,21 @@
       </div>
       <div class="profession-container">
         <div class="profession-box">
-          <div class="profession" style="--i: 1">
+          <div class="profession" style="--i:0">
             <i class="bx bx-code-alt"></i>
             <h3>Web Developer</h3>
           </div>
-          <div class="profession" style="--i: 2">
+          <div class="profession" style="--i:1">
             <i class="bx bx-code-alt"></i>
             <h3>Web Desinger</h3>
           </div>
-          <div class="profession" style="--i: 3">
+          <div class="profession" style="--i:2">
             <i class="bx bx-code-alt"></i>
             <h3>videographer</h3>
           </div>
-          <div class="profession" style="--i: 4">
+          <div class="profession" style="--i:3">
             <i class="bx bx-code-alt"></i>
-            <h3>ingeniero</h3>
+            <h3>Ingeniero</h3>
           </div>
           <div class="circle"></div>
         </div>
@@ -81,7 +84,7 @@
     <!--_____________________________________about section desing ______________________________________   -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="./src/imagenes/mifoto.png" alt="" />
+        <img src="./src/imagenes/imagen (2) (1).jpg" alt="" />
       </div>
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
@@ -129,9 +132,125 @@
             ratione, voluptatibus asperiores recusandae!
           </p>
           <a href="#" class="btn">Read More</a>
-
         </div>
+        </div>
+   </section>
+   <!-- ____________________portafolio section desing__________________ -->
+   <section class="portafolio" id="portafolio">
+    <h2 class="heading">Latest <span>Project</span> </h2>
+    <div class="portafolio-container">
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (4) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (5) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (5) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (5) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (6) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portafolio-box">
+        <img src="./src/imagenes/imagen (6) (1).jpg" alt="imagen del portafolio proyecto">
+        <div class="portafolio-layer">
+          <h4>Web desing</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni id architecto, facere tempora nam ut odio veniam, ducimus inventore aliquid ea enim molestiae adipisci quia praesentium voluptate expedita eos! Hic!</p>
+       <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
      
+    </div>
+   </section>
+   <!--__________________________________ testimonial design____________________________ -->
+   <div class="testimonial-container">
+    <h2 class="heading">Valuable <span> Testimonial</span></h2>
+    <div class="testimonial-wrapper">
+      <div class="testimonial-box  mySwiper">
+        <div class="testimonial-content swiper-wrapper">
+          <div class="testimonial-slide swiper-slide">
+            <img src="./src/imagenes/imagen (1) (1).jpg" alt="">
+            <h3>Jackson levi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum explicabo aut eos consequatur accusamus repellendus, dolores quaerat provident suscipit beatae debitis sapiente in unde et atque iure laborum nihil. Voluptate omnis quis ratione tempore aperiam vero fugiat suscipit iusto non doloribus assumenda quasi qui nobis, quas excepturi officia cum repellat aliquid! Sit vitae hic tenetur voluptatibus perferendis ut temporibus!</p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="./src/imagenes/imagen (1) (1).jpg" alt="">
+            <h3>Jackson levi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum explicabo aut eos consequatur accusamus repellendus, dolores quaerat provident suscipit beatae debitis sapiente in unde et atque iure laborum nihil. Voluptate omnis quis ratione tempore aperiam vero fugiat suscipit iusto non doloribus assumenda quasi qui nobis, quas excepturi officia cum repellat aliquid! Sit vitae hic tenetur voluptatibus perferendis ut temporibus!</p>
+
+          </div>
+          <div class="testimonial-slide swiper-slide">
+            <img src="./src/imagenes/imagen (1) (1).jpg" alt="">
+            <h3>Jackson levi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum explicabo aut eos consequatur accusamus repellendus, dolores quaerat provident suscipit beatae debitis sapiente in unde et atque iure laborum nihil. Voluptate omnis quis ratione tempore aperiam vero fugiat suscipit iusto non doloribus assumenda quasi qui nobis, quas excepturi officia cum repellat aliquid! Sit vitae hic tenetur voluptatibus perferendis ut temporibus!</p>
+
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+   </div>
+   <!-- contact section -->
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+   </section>
+   <!-- footer design -->
+   <footer class="footer">
+    <div class="footer-text">
+      <p> Thanks for visiting my portfolio.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt' ></i> UP</a>
+    </div>
+   </footer>
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+   <!-- swiper js  -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- ruta del javascript -->
     <script src="./Js/script.js"></script>
   </body>
