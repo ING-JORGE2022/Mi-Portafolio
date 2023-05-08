@@ -595,7 +595,6 @@ span {
   .navbar a:nth-child(2),
   .navbar a:nth-child(3) {
     color: #754ef9;
-    padding: 11px;
   }
   .navbar a.active::before {
     background: #754ef9;
