@@ -15,11 +15,11 @@ max-width: 44rem;
     font-size: 3.1rem;
     font-weight:700;
     line-height: 2rem;
-    color:#000000;
+    color:$primary-color-text;
     margin-left: 10px;
 }
 &-content h1{
-    color : black;
+    color : $primary-color-text;
     font-size:5.6rem;
     font-weight:700;
     margin-bottom: .3rem;
@@ -78,7 +78,7 @@ transition: .5s ease;
     color: $main-color;
     transform: rotate(calc(360deg / 4 * var(--i) ));
     transform-origin: 384px;
-    background:$bg-color-text;
+    background: $bg-color-text;
     padding: 13px 0;
 
 }

@@ -3,5 +3,47 @@ $bg-color-text: #fdfdfd;
 $text-color:#333;
 $main-color: #754ef9;
 $shadow-color:  rgba(0,0,0, .2);
+$primary-color-text:#000000; 
+$blanco:white;
+$dark:#120936;
 
 // colors darkmode
+
+.dark-mode{
+    background:$dark;
+   
+    .home-content h3{
+      color:$blanco;
+    }
+    .home-content h1{
+        color:$blanco;
+    }
+    .home-content p{
+        color:$blanco;
+    }
+    .home .profession-box .profession{
+        background: $dark;
+    }
+
+    .about-content h2{
+        color:$blanco;
+    }
+    .about-content h3{
+        color:$blanco;
+    }
+    .about-content p{
+        color:$blanco;
+    }
+    .services h2 {
+        color:$blanco
+    }
+    .contact h2{
+        color:$blanco;
+    }
+    .portafolio h2{
+        color:$blanco;
+    }
+    .heading{
+        color:$blanco;
+    }
+  } 

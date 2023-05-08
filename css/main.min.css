@@ -1,3 +1,40 @@
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -65,6 +102,43 @@
   cursor: pointer;
 }
 
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +157,81 @@ html {
 
 body {
   background: #fdfdfd;
-  color: black;
+  color: #000000;
+}
+
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
 }
 
 section {
@@ -106,7 +254,7 @@ section {
   margin-left: 10px;
 }
 .home-content h1 {
-  color: black;
+  color: #000000;
   font-size: 5.6rem;
   font-weight: 700;
   margin-bottom: 0.3rem;
@@ -243,6 +391,43 @@ section {
     transform: rotate(-360deg);
   }
 }
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 span {
   color: #754ef9;
 }
@@ -275,6 +460,43 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+}
+
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
 }
 
 .services {
@@ -328,6 +550,43 @@ span {
 .services-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
+}
+
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
 }
 
 .portafolio {
@@ -406,6 +665,43 @@ span {
   color: #333;
 }
 
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;
@@ -478,6 +774,43 @@ span {
   background: #754ef9;
 }
 
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -520,6 +853,43 @@ span {
   cursor: pointer;
 }
 
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -555,10 +925,84 @@ span {
   color: #333;
 }
 
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
+}
+
 #menu-icon {
   font-size: 3.6rem;
   color: #333;
   display: none;
+}
+
+.dark-mode {
+  background: #120936;
+}
+.dark-mode .home-content h3 {
+  color: white;
+}
+.dark-mode .home-content h1 {
+  color: white;
+}
+.dark-mode .home-content p {
+  color: white;
+}
+.dark-mode .home .profession-box .profession {
+  background: #120936;
+}
+.dark-mode .about-content h2 {
+  color: white;
+}
+.dark-mode .about-content h3 {
+  color: white;
+}
+.dark-mode .about-content p {
+  color: white;
+}
+.dark-mode .services h2 {
+  color: white;
+}
+.dark-mode .contact h2 {
+  color: white;
+}
+.dark-mode .portafolio h2 {
+  color: white;
+}
+.dark-mode .heading {
+  color: white;
 }
 
 @media (max-width: 1200px) {
