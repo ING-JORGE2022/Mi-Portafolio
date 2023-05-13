@@ -74,3 +74,9 @@ ScrollReveal({
  ScrollReveal().reveal('.home-img img, .services-container, .portafolio-box, testimonial-wrapper, .contact form ', { origin: 'bottom'});
  ScrollReveal().reveal('.home-content h1, .about-img img',  { origin: 'left'});
  ScrollReveal().reveal('.home-content h3, .home-content p .about-content',  { origin: 'right'});
+
+
+//  button cv
+function abrirEnlace() {
+  window.open("../src/docs/HOJA DE VIDA JORGE SARMIENTO FRONTEND.pdf");
+}

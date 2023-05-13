@@ -171,6 +171,7 @@ html{
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
     border-width:23.9rem;
+   
 }
 .about{
     flex-direction: column-reverse;
@@ -182,6 +183,7 @@ html{
 .about-img img{
     width: 70vw;
     margin-top:-2rem;
+   
 }
 .services h2,
 .portafolio h2{
@@ -242,3 +244,4 @@ padding: 3rem 0;
     }
 
 }
+
