@@ -78,6 +78,6 @@ ScrollReveal({
 
 //  button cv
 function abrirEnlace() {
-  window.open("https://drive.google.com/drive/folders/1hCs8U6EIKeLj1DwEpa5GcJMe56Wf5m9t");
+  window.open("https://drive.google.com/file/d/1nRbyRCb4n5Y9RMj2sh4xW1gjNkyLv2Ud/view?usp=share_link");
 }
 
