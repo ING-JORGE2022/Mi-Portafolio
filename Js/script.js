@@ -78,6 +78,6 @@ ScrollReveal({
 
 //  button cv
 function abrirEnlace() {
-  window.open("../src/docs/HOJA DE VIDA JORGE SARMIENTO FRONTEND.pdf");
+  window.open("https://drive.google.com/drive/folders/1hCs8U6EIKeLj1DwEpa5GcJMe56Wf5m9t");
 }
 
