@@ -45,6 +45,9 @@
     font-weight: 500;
     margin-right: 3.5rem;
 }
+.navbar-p2 a {
+   color: $main-color; 
+}
 
 .navbar a.active::before{
 content: '';
